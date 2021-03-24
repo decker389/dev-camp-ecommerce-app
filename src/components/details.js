@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
 class Details extends Component {
-    render(){
-        const { title,  links } = this.props
+    render() {
+        const { className, title, links } = this.props
         return (
-            <div className='details'>
+            <div className={`${className} details`}>
                 <div className='details__title'>{title}</div>
-                <div className='details_links'>
+                <div className='details__links'>
                     {
                         links.map(link => {
-                            return<a key={link._id} onClick={link.onClick} className='deatils__link'>{link.title}</a>
+                            return <a key={link._id} onClick={link.onClick} className='deatils__link'>{link.title}</a>
                         })
                     }
                 </div>
