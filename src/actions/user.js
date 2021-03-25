@@ -6,14 +6,92 @@ export function fetchUserPurchases() {
         payload: [
             {
                 _id: 0,
-                title: 'purchase 1',
-                amount: 8.02
+                Total: 8.02,
+                orderNumber: 'Aooorerdsasd' ,
+                orderDate: new Date(),
+                creditCard: '-0000',
+                user: {
+                    name: 'Jordan Hudgens',
+                    shippingAddress: '1234 West State Street'
+                }
             },
             {
                 _id: 1,
-                title: 'purchase 2',
-                amount: 19.4
-            }
+                Total: 8.02,
+                orderNumber: 'Ao0orerdsasd' ,
+                orderDate: new Date(),
+                creditCard: '-0000',
+                user: {
+                    name: 'Jordan Hudgens',
+                    shippingAddress: '1234 West State Street'
+                }
+            },
+            {
+                _id: 2,
+                Total: 8.02,
+                orderNumber: 'Ao2orerdsasd' ,
+                orderDate: new Date(),
+                creditCard: '-0000',
+                user: {
+                    name: 'Jordan Hudgens',
+                    shippingAddress: '1234 West State Street'
+                }
+            },
+            {
+                _id: 3,
+                Total: 8.02,
+                orderNumber: 'Aooorerdsasd' ,
+                orderDate: new Date(),
+                creditCard: '-0000',
+                user: {
+                    name: 'Jordan Hudgens',
+                    shippingAddress: '1234 West State Street'
+                }
+            },
+            {
+                _id: 4,
+                Total: 8.02,
+                orderNumber: 'Aooorerdsasd' ,
+                orderDate: new Date(),
+                creditCard: '-0000',
+                user: {
+                    name: 'Jordan Hudgens',
+                    shippingAddress: '1234 West State Street'
+                }
+            },
+            {
+                _id: 5,
+                Total: 8.2,
+                orderNumber: 'Aooorerdsasd' ,
+                orderDate: new Date(),
+                creditCard: '-0000',
+                user: {
+                    name: 'Jordan Hudgens',
+                    shippingAddress: '1234 West State Street'
+                }
+            },
+            {
+                _id: 6,
+                Total: 8.22,
+                orderNumber: 'Aooorerdsasd' ,
+                orderDate: new Date(),
+                creditCard: '-0000',
+                user: {
+                    name: 'Jordan Hudgens',
+                    shippingAddress: '1234 West State Street'
+                }
+            },
+            {
+                _id: 7,
+                Total: 8.02,
+                orderNumber: 'Aooorerdsasd' ,
+                orderDate: new Date(),
+                creditCard: '-0000',
+                user: {
+                    name: 'Jordan Hudgens',
+                    shippingAddress: '1234 West State Street'
+                }
+            },
         ]
     })
 }
