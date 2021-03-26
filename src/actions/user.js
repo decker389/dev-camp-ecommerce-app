@@ -13,7 +13,7 @@ export function fetchUserPurchases() {
         payload: [
             {
                 _id: 0,
-                Total: 8.02,
+                total: 8.02,
                 orderNumber: 'Aooorerdsasd' ,
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
@@ -24,7 +24,7 @@ export function fetchUserPurchases() {
             },
             {
                 _id: 1,
-                Total: 8.02,
+                total: 8.02,
                 orderNumber: 'Ao0orerdsasd' ,
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
@@ -35,7 +35,7 @@ export function fetchUserPurchases() {
             },
             {
                 _id: 2,
-                Total: 8.02,
+                total: 8.02,
                 orderNumber: 'Ao2orerdsasd' ,
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
@@ -46,7 +46,7 @@ export function fetchUserPurchases() {
             },
             {
                 _id: 3,
-                Total: 8,
+                total: 8,
                 orderNumber: 'Aooorerdsasd' ,
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
@@ -57,7 +57,7 @@ export function fetchUserPurchases() {
             },
             {
                 _id: 4,
-                Total: 8.02,
+                total: 8.02,
                 orderNumber: 'Aooorerdsasd' ,
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
@@ -68,7 +68,7 @@ export function fetchUserPurchases() {
             },
             {
                 _id: 5,
-                Total: 8.2,
+                total: 8.2,
                 orderNumber: 'Aooorerdsasd' ,
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
@@ -79,7 +79,7 @@ export function fetchUserPurchases() {
             },
             {
                 _id: 6,
-                Total: 8.22,
+                total: 8.22,
                 orderNumber: 'Aooorerdsasd' ,
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
@@ -90,7 +90,7 @@ export function fetchUserPurchases() {
             },
             {
                 _id: 7,
-                Total: 8.02,
+                total: 8.02,
                 orderNumber: 'Aooorerdsasd' ,
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
