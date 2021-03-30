@@ -56,49 +56,49 @@ export function fetchShopProducts() {
             {
                 _id: 0,
                 title: 'JavaScript in the Browser',
-                description: 'dis nascetur nascetur mattis nibh nec vivamus, venenatis Blandit sem mus aliquam suspendisse ac vulputate lorem faucibus pulvinar lacinia natoque ante curabitur magnis ullamcorper dui enim. Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
+                description: 'Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
                 price: '1.99',
                 belongsTo: [0, 1]
             },
             {
                 _id: 1,
                 title: 'Graph Database',
-                description: 'dis nascetur nascetur mattis nibh nec vivamus, venenatis Blandit sem mus aliquam suspendisse ac vulputate lorem faucibus pulvinar lacinia natoque ante curabitur magnis ullamcorper dui enim. Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
+                description: 'Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
                 price: '1.99',
                 belongsTo: [0, 6]
             },
             {
                 _id: 2,
                 title: 'Fullstack Development',
-                description: 'dis nascetur nascetur mattis nibh nec vivamus, venenatis Blandit sem mus aliquam suspendisse ac vulputate lorem faucibus pulvinar lacinia natoque ante curabitur magnis ullamcorper dui enim. Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
+                description: 'Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
                 price: '1.99',
                 belongsTo: [0, 2, 4]
             },
             {
                 _id: 3,
                 title: 'User Interface Design',
-                description: 'dis nascetur nascetur mattis nibh nec vivamus, venenatis Blandit sem mus aliquam suspendisse ac vulputate lorem faucibus pulvinar lacinia natoque ante curabitur magnis ullamcorper dui enim. Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
+                description: 'Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
                 price: '1.99',
                 belongsTo: [0, 2, 5]
             },
             {
                 _id: 4,
                 title: 'JavaScript Design',
-                description: 'dis nascetur nascetur mattis nibh nec vivamus, venenatis Blandit sem mus aliquam suspendisse ac vulputate lorem faucibus pulvinar lacinia natoque ante curabitur magnis ullamcorper dui enim. Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
+                description: 'Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
                 price: '1.99',
                 belongsTo: [0, 2]
             },
             {
                 _id: 5,
                 title: 'User Experience Design',
-                description: 'dis nascetur nascetur mattis nibh nec vivamus, venenatis Blandit sem mus aliquam suspendisse ac vulputate lorem faucibus pulvinar lacinia natoque ante curabitur magnis ullamcorper dui enim. Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
+                description: 'Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
                 price: '1.99',
                 belongsTo: [0, 5]
             },
             {
                 _id: 6,
                 title: 'Advanced OOP',
-                description: 'dis nascetur nascetur mattis nibh nec vivamus, venenatis Blandit sem mus aliquam suspendisse ac vulputate lorem faucibus pulvinar lacinia natoque ante curabitur magnis ullamcorper dui enim. Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
+                description: 'Id feugiat augue. Lobortis ridiculus potenti. Sollicitudin. Mauris. Bibendum ante. Ad elit. Gravida sodales imperdiet Luctus porttitor pharetra laoreet scelerisque sapien vivamus consequat dictum maecenas nibh. Phasellus sociis. Molestie.',
                 price: '1.99',
                 belongsTo: [0, 1, 6]
             }

@@ -16,12 +16,10 @@ class ShopProduct extends Component {
                     {description}
                 </div>
                 <GreenPriceTag className='shop-product__price' title={price} />
-                <div>
-                    <Quantity className='shop-product__qunatity' Quantity={1} />
-                    <div className='shop-product__add-to-cart'>
-                        Add to Cart
+                <Quantity className='shop-product__quantity' Quantity={1} />
+                <div className='shop-product__add-to-cart'>
+                    Add to Cart
                     </div>
-                </div>
             </div>
         )
     }
