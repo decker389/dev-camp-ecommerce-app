@@ -2,7 +2,7 @@
     grid-row: content-s/content-e;
     grid-column: s/e;
     display: grid;
-    grid-template-rows: 15px [search-bar-s] 15px [search-bar-e products-s] 1fr [products-e];
+    grid-template-rows: 15px [search-bar-s] 5px [search-bar-e products-s] 1fr [products-e];
     grid-template-columns: [s] minmax(100px, 1035px) [e];
     justify-content: center;
     grid-gap: 57px;
