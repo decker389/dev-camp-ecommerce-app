@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import CartProduct from './cartproduct';
+
 function CartButton({ className, icon }) {
     return (
         <div className={`${className} cart-button`}>
@@ -10,7 +12,7 @@ function CartButton({ className, icon }) {
 
 function CartContent({ className, products }) {
     let count = products.length
-    let displayedProducts = products.map(product => <h1 key={product}>{product}</h1>)
+    let displayedProducts = products.map(product => <CartProduct key={product} />)
     return (
         <div className={`${className} cart-content`} >
             <div className='cart-content__title'>
@@ -47,7 +49,7 @@ class ShopCart extends Component {
         return (
             <div className={`${className} shop-cart`}>
                 <CartButton className='shop-cart__toggle' icon='fas fa-times' />
-                <CartContent className='shop-cart__content' products={[4, 123, 2, 23, 500, 430, 23212, 443, 2313, 412412, 123, 8888, 898, 899, 999, 909]} />
+                <CartContent className='shop-cart__content' products={[4, 123, 2, 23, 500, 430, 23212, 443, 2313, 412412, 153, 8888, 898, 899, 999, 909]} />
             </div>
         )
     }
