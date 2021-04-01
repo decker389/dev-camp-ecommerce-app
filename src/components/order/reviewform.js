@@ -12,9 +12,9 @@ class ReviewForm extends Component {
 
                 <div className="review-form__line"></div>
 
-                <Field className='review-form__proceed' onClick={() => history.push('/account')} type='submit' title='Proceed to Checkout' name='proceed' component={FormButton} />
+                <Field className='review-form__proceed' onClick={() => history.push('/signin')} type='submit' title='Proceed to Checkout' name='proceed' component={FormButton} />
 
-                <Field className='review-form__back' onClick={() => history.push('/signin')} type='button' title='Back' name='back' grey={true} component={FormButton} />
+                <Field className='review-form__back' onClick={() => history.push('/shop')} type='button' title='Back' name='back' grey={true} component={FormButton} />
             </form>
         )
     }
