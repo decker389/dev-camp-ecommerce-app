@@ -1,6 +1,14 @@
 .review-form {
   //   display: grid;
 
+  &__legend {
+    grid-row: legend-s/legend-e;
+    grid-column: 1/-1;
+    font-size: 14px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 11px;
+  }
+
   &__products {
     grid-column: 1/-1;
     grid-row: products-s/products-e;
@@ -25,6 +33,6 @@
 
   &__proceed {
     grid-row: button-s/button-e;
-    grid-column: proceed-s proceed-e;
+    grid-column: proceed-s/proceed-e;
   }
 }
