@@ -22,6 +22,24 @@ class ReviewForm extends Component {
                 <Field className='review-form__proceed' onClick={() => history.push('/signin')} type='submit' title='Proceed to Checkout' name='proceed' component={FormButton} />
 
                 <Field className='review-form__back' onClick={() => history.push('/shop')} type='button' title='Back' name='back' grey={true} component={FormButton} />
+                <div className='review-form__details review-details'>
+                    <div className='review-form__details_subtotal review-detail'>
+                        <div className='review-detail__title'>Subtotal</div>
+                        <div className='review-detail__price'>12$</div>
+                    </div>
+                    <div className='review-form__details_tax review-detail'>
+                        <div className='review-detail__title'>Tax</div>
+                        <div className='review-detail__price'>$0.16</div>
+                    </div>
+                    <div className='review-form__details_subtotal review-detail'>
+                        <div className='review-detail__title'>Shipping</div>
+                        <div className='review-detail__price'>$0.00</div>
+                    </div>
+                    <div className='review-form__details_total review-detail review-detail-green'>
+                        <div className='review-detail__title review-detail-green__title'>Total</div>
+                        <div className='review-detail__price review-detail-green__price'>$12.16</div>
+                    </div>
+                </div>
             </form>
         )
     }
