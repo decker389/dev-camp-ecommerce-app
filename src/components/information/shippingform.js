@@ -3,24 +3,12 @@ import { reduxForm, Field } from 'redux-form';
 
 import { FormInput, FormButton } from '../formFields';
 import history from '../../history';
+import OrderSummary from './ordersummary';
 
 class ShippingForm extends Component {
     render() {
         const { className, handleSubmit } = this.props;
-        const info = [
-            {
-                _id: 0,
-                title: 'At least six characters'
-            },
-            {
-                _id: 1,
-                title: 'At least one number'
-            },
-            {
-                _id: 2,
-                title: 'At least one symbol'
-            }
-        ]
+
         return (
             <form onSubmit={handleSubmit} className={`${className} shipping-form`}>
                 <Field className='shipping-form__name' type='name' title='Name' placeholder='Name' name='name' component={FormInput} />
@@ -39,6 +27,7 @@ class ShippingForm extends Component {
 
                 <Field className='shipping-form__back' onClick={() => history.push('/signin')} type='button' title='Back' name='back' grey={true} component={FormButton} />
 
+                <OrderSummary className='shipping-form__summary ' />
             </form>
         )
     }
