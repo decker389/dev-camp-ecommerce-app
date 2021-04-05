@@ -4,6 +4,7 @@ import { reduxForm, Field } from 'redux-form';
 import { FormInput, FormButton } from '../formFields';
 import history from '../../history';
 import OrderSummary from './ordersummary';
+import { UnderlinedTitle } from './infohelp';
 
 class PaymentForm extends Component {
     render() {
@@ -25,6 +26,12 @@ class PaymentForm extends Component {
                 <Field className='payment-form__back' onClick={() => history.push('/signin')} type='button' title='Back' name='back' grey={true} component={FormButton} />
 
                 <OrderSummary className='payment-form__order-summary ' />
+
+                <div className='payment-form__shipping-info shipping-info'>
+                    <UnderlinedTitle className='shipping-info__title' title='Shipping To' />
+                    <div className='shipping-info__name small-text'>Jorden Hudgens</div>
+                    <div className='shipping-info__address small-text'>1223 and address</div>
+                </div>
 
             </form>
         )
