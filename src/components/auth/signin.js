@@ -5,6 +5,7 @@ import * as actions from '../../actions';
 import SignInForm from './signinForm';
 import PageTitle from '../pagetitle';
 
+
 class SignIn extends Component {
 
     componentDidMount() {
@@ -12,9 +13,10 @@ class SignIn extends Component {
         this.props.setNavbarLinks([]);
     }
 
-onSubmit = (fields) => {
-    console.log(fields);
-}
+    onSubmit = (fields) => {
+        this.props.history.push('/account');
+        this.props.signIn(fields);
+    }
 
     render() {
         return (

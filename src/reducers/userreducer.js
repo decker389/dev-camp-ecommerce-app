@@ -1,6 +1,7 @@
-import { SET_PURCHASE_DETAIL, SET_USER_PURCHASES, SET_CART_PRODUCTS, ADD_CART_PRODUCT } from '../actions/types';
+import { SET_PURCHASE_DETAIL, SET_USER_PURCHASES, SET_CART_PRODUCTS, ADD_CART_PRODUCT, AUTHENTITCATE_USER } from '../actions/types';
 
 const INITIAL_STATE = {
+    user: {},
     cartProducts: [],
     purchases: [],
     purchaseDetail: {
@@ -16,26 +17,32 @@ const INITIAL_STATE = {
     }
 }
 
-export default function(state = INITIAL_STATE, action) {
+export default function (state = INITIAL_STATE, action) {
     switch (action.type) {
+        case AUTHENTITCATE_USER:
+            const { user } = action.payload;
+            return {
+                ...state,
+                user
+            }
         case ADD_CART_PRODUCT:
             var exists = false;
             const newCP = action.payload;
             var cartProducts = [];
             state.cartProducts.map(cartProduct => {
-                if(cartProduct.product._id == newCP._id) {
+                if (cartProduct.product._id == newCP._id) {
                     exists = true;
                     cartProduct.quantity += 1;
                 }
                 cartProducts.push(cartProduct);
             })
-            if(exists == false) {
+            if (exists == false) {
                 cartProducts.push({
                     _id: state.cartProducts.length + 1,
                     product: newCP,
                     quantity: 1
                 })
-            }   
+            }
 
             return {
                 ...state,
@@ -54,7 +61,7 @@ export default function(state = INITIAL_STATE, action) {
         case SET_PURCHASE_DETAIL:
             let purchaseDetail;
             state.purchases.map(purchase => {
-                if(purchase._id == action.payload) {
+                if (purchase._id == action.payload) {
                     purchaseDetail = purchase;
                 }
             })
